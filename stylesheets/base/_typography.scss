@@ -1,0 +1,18 @@
+/**
+ * Basic typography style -- Semantic and elements styles
+ * Classes will be located in other partials
+ */
+@import "../abstracts/variables";
+
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+}

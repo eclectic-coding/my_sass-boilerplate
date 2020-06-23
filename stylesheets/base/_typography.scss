@@ -18,4 +18,9 @@ body {
 a {
   color: $brand-color;
   text-decoration: none;
+
+  &:hover,
+  &:hover {
+    font-weight: bold;
+  }
 }

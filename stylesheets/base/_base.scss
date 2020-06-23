@@ -8,6 +8,7 @@
  * making all elements inheriting from the root box-sizing value
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
+ 
 *,
 *::before,
 *::after {
@@ -15,7 +16,8 @@
 }
 
 :root {
-  font-size: 62.5%;
+  font-size: 62.5%; // 10px as 1 rem == 16px = 1.6 rem
+  font-family: $text-font-stack;
 }
 
 body {
